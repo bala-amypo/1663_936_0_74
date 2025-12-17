@@ -7,6 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @RestController
 public class StudentController{
-    @Autowired 
+    @Autowired StudentService ser;
 
 }
