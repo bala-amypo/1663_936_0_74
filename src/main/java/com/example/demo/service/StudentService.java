@@ -1,11 +1,9 @@
-package com.example.demo.service.Impl;
+package com.example.demo.service;
 
-import org.springframework.sterotype.Service;
-import com.example.demo.service.StudentService;
+import com.example.demo.entity.StudentEntity;
 
 
-@Service
-public class StudentServiceImpl implements StudentService{
+public interface StudentService{
     StudentEntity postdata(StudentEntity stu);
 
 }
