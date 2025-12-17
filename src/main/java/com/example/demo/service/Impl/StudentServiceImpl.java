@@ -5,9 +5,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.sterotype.Service;
 import com.example.demo.Service.StudentService;
 
-
-public interface StudentService{
+@Service
+public class{
     @Autowired StudentRepo student;
+
+
     // save()
     // findall()
     // findById()

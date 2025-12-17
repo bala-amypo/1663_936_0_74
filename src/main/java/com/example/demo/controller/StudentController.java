@@ -1,9 +1,12 @@
 package com.example.demo.controller;
 
 import org.springframework.web.bind.annotation.RestController;
-import com.example.demo.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.example.
+import org.springframework.beans.factory.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.example.demo.StudentEntity;
+import com.example.demo.service.StudentService;
 
 
 @RestController
@@ -12,7 +15,7 @@ public class StudentController{
 
     @PostMapping("/post")
     public StudentEntity sendData(@RequestBody StudentEntity stu){
-
+        return ser.postdata(stu);
     }
 
 
