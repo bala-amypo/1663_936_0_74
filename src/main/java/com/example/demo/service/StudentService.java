@@ -15,7 +15,7 @@ public interface StudentService{
     // existsById()
 
     public StudentEntity postdata(StudentEntity stu){
-        return student.save(stu); 
+        return student.save(stu);  
 
     }
 }
