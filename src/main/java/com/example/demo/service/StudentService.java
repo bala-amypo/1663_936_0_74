@@ -8,8 +8,14 @@ import com.example.demo.Service.StudentService;
 
 public interface StudentService{
     @Autowired StudentRepo student;
-    save()
+    // save()
+    // findall()
+    // findById()
+    // deleteById()
+    // existsById()
+
     public StudentEntity postdata(StudentEntity stu){
+        return student.save(stu); 
 
     }
 }
