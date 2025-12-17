@@ -1,11 +1,12 @@
 package com.example.demo.service.Impl;
 
 import org.springframework.sterotype.Service;
+import com.example.demo.service.StudentService;
 
-import com.e
+
 @Service
 public class StudentServiceImpl implements StudentService{
-
+    StudentEntity postdata(StudentEntity stu);
 
 }
 
