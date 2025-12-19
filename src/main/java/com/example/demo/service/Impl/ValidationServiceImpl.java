@@ -17,6 +17,6 @@ public ValidationEntity postData(ValidationEntity stu){
 }
 @Override
 public ValidationEntity getData(Integer id){
-    
+    return repo.findById(id).orElse(other:null); 
 }
 }
