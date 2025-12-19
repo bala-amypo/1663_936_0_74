@@ -26,3 +26,4 @@ public ValidationEntity postData(@Valid @RequestBody ValidationEntity stu){
 return ser.postData(stu);
 }
 }
+
