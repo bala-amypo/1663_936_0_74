@@ -14,6 +14,8 @@ import lombok.Setter;
 
 @Entity
 @Data
+@AllArgsConstructor
+
 public class StudentEntity{
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
